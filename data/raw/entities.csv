@@ -1,4 +1,4 @@
-name	type	youtube_url	instagram_url	x_url
-Singapore Airlines 	Brand 	https://www.youtube.com/singaporeair	https://www.instagram.com/singaporeair/	https://x.com/SingaporeAir
-Marina Bay Sands 	Brand 	https://www.youtube.com/@themarinabaysands	https://www.instagram.com/marinabaysands/	https://x.com/marinabaysands
-Singapore Grand Prix	Event 	https://www.youtube.com/user/singaporegrandprix	https://www.instagram.com/f1nightrace/	https://x.com/f1nightrace
+﻿name,type,youtube_url,instagram_url,x_url
+Singapore Airlines,Brand,https://www.youtube.com/@singaporeair,https://www.instagram.com/singaporeair/,https://x.com/SingaporeAir
+Marina Bay Sands,Brand,https://www.youtube.com/@TheMarinaBaySands,https://www.instagram.com/marinabaysands/,https://x.com/marinabaysands
+Singapore Grand Prix,Event,https://www.youtube.com/user/singaporegrandprix,https://www.instagram.com/f1nightrace/,https://x.com/f1nightrace
