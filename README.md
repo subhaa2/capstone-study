@@ -17,3 +17,18 @@ This project aims to develop a cross-platform analytics system that compares the
 
 ## Planned Output
 A dashboard and analysis comparing engagement across the three platforms.
+
+## Post Data Format
+
+Sample data is stored in `data/raw/sample_posts.csv`.
+
+- Each row represents one social media post.
+- `entity_name` identifies the brand or event.
+- `platform` identifies the social media platform.
+- `post_url` links to the original post.
+- `published_at` records the publication date.
+- `collected_at` records when the metrics were observed.
+- `views`, `likes`, `comments`, and `shares` contain engagement counts.
+- Blank metrics mean unavailable, not zero.
+
+The first sample was collected manually from YouTube.
