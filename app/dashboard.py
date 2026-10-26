@@ -19,3 +19,9 @@ comments.metric("Comments", f"{filtered['comments'].sum():,.0f}")
 
 st.subheader("Posts")
 st.dataframe(filtered, use_container_width=True)
+
+st.subheader("Likes and comments by platform")
+
+engagement = filtered.groupby("platform")[["likes", "comments"]].sum()
+
+st.bar_chart(engagement)
